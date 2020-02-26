@@ -39,29 +39,6 @@ class RouteViewController: UIViewController, UITableViewDataSource, UITableViewD
         self.title = "RoutePlan"
          navigationItem.rightBarButtonItem = UIBarButtonItem(title: "SignOut", style: .plain, target: self, action: #selector(logOut))
 
-//        let product1 = Product()
-//        product1.productID = UUID().uuidString
-//        product1.productName = "Prod1"
-//        
-//        let product2 = Product()
-//        product2.productID = UUID().uuidString
-//        product2.productName = "Prod2"
-//        
-//        let product3 = Product()
-//        product3.productID = UUID().uuidString
-//        product3.productName = "Prod3"
-//        
-//        let product4 = Product()
-//        product4.productID = UUID().uuidString
-//        product4.productName = "Prod4"
-//        
-//        let product5 = Product()
-//        product5.productID = UUID().uuidString
-//        product5.productName = "Prod5"
-
-//        try! self.realm.write {
-//            self.realm.add([product1,product2,product3,product4,product5])
-//        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
