@@ -23,6 +23,14 @@ This app covers several introductory concepts about Realm.<br />
   Sync mechanism<br />
   Backlink - demonstrates how to define models with inverse relationships using linkingObjectsOfClass(_:forProperty:)
   
+# Known Issue
+----------------------------
+On the initial cold launch of the app (the app is being launched for the first time on the device and does not have nY initial data synced in the local database) the data sync is not working upon first login attempt.
+  Workaround steps: 
+  During cold launch of the app after successful on first login attempt the Route screen will not contain any data 
+  Now please 'Logout' of the app and L'ogin' again with the same user credential 
+  Data now shold be synced and being displayed in the route screen.
+  
 # Roadmaps
 ----------------------------
 Demonstrate realm migration feature<br />
