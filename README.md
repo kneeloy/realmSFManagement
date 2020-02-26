@@ -18,9 +18,11 @@ Locate the Constants.swift file in the file navigator; Edit it and replace MY_IN
 
 # Functionalities
 ----------------------------
-This app covers several introductory concepts about Realm.<br />
-  i.e Add, Update and Delete records<br />
+This app covers several introductory concepts about Realm i.e<br />
+  Add, Update and Delete records<br />
+  Fetch realm and using filters 
   Sync mechanism<br />
+  Realm Notifications 
   Backlink - demonstrates how to define models with inverse relationships using linkingObjectsOfClass(_:forProperty:)
   
 # Known Issue
